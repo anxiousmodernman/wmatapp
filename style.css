@@ -1,0 +1,185 @@
+/*
+* TODO make it so that visited links to not have highlighting.
+* TODO make it so that hovering over a box makes it change color. AKA nice navigation.
+* TODO Pick a whole new color scheme
+*/
+
+
+body {
+    background-color: #7171BC;
+    font-family: sans-serif;
+}
+
+
+#wrapper {
+    background-color: #ABABDE;
+    margin-left: auto;
+    margin-right: auto;
+    width: 805px;
+    border-radius: 3px;
+    overflow: auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+
+#tablewrapper {
+    width: 80%;
+
+}
+
+#tablewrapper tr {
+    background-color: none;
+}
+
+#navbar {
+    float: left;
+    /*border for hacking*/
+    border-top: 1px solid black;
+    clear: right;
+    width: 210px;
+
+}
+
+#navbar ul {
+    display: inline;
+    margin: 0px 0px 0px 10px;
+    padding: 0;
+    width: 100%;
+}
+
+#navbar ul li {
+    list-style-type: none;
+    padding: 25px 10px 10px 15px;
+    font-size: 19px;
+    margin: 0;
+    height: 45px;
+}
+
+#navbar li:hover {
+    background-color: #9D9DC6;
+}
+
+#header {
+    /*border for hacking*/
+    border: 1px solid transparent;
+    background-image: url('SB_logo_white.png');
+    height: 150px;
+    background-repeat: no-repeat;
+}
+
+.navitem {
+
+}
+
+.htag {
+    margin: 25px 10px 15px;
+    padding: 0 20px;
+}
+.content {
+    background-color: #DDDDFC;
+    overflow: auto;
+    margin: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.contentwrapper {
+    clear: right;
+    overflow: auto;
+    /*border for hacking*/
+    border-top: 1px solid black;
+    border-left: 1px dashed black;
+}
+
+.fade1 {
+
+}
+
+.fade2 {
+
+}
+
+.imagewrapper {
+    margin: 60px 30px 20px;
+    width: 180px;
+    float: right;
+}
+
+.tinyfont {
+    font-size: .5em;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+
+}
+
+a:active {
+    text-decoration: none;
+}
+
+fieldset {
+    border:none;
+}
+
+h1 {
+    padding-right: 5px;
+    text-align: right;
+    margin: 68px 10px 0px;
+    font-size:5.0em;
+    opacity: .8;
+
+}
+
+h6 {
+    margin-left: 20px;
+}
+
+img {
+
+}
+
+p {
+    margin: 5px;
+    padding: 10px;
+}
+
+table {
+    font-size: .8em;
+    width: 100%;
+    border: 1px black;
+    margin: auto;
+    border-spacing: 0;
+}
+
+td, th {
+    padding: 5px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #E3D5AC;
+}
+
+tr:nth-of-type(even) {
+    background-color: #D7C07A;
+}
+
+/*
+
+         border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+ */
