@@ -1,0 +1,14 @@
+wmata key
+azcsgfdx44fzqenbe6zuqqmk
+
+
+# api calls
+
+#get routes
+http://api.wmata.com/Bus.svc/json/jRoutes?api_key=azcsgfdx44fzqenbe6zuqqmk
+
+#get schedule by route
+http://api.wmata.com/Bus.svc/json/jRouteSchedule?routeId=16L&date=2013-06-26&includingVariations=false&api_key=azcsgfdx44fzqenbe6zuqqmk
+
+
+
