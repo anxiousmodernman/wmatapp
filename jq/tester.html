@@ -10,9 +10,9 @@
     <!--<script src="js/ajax.js"></script></head>-->
 <body>
 
-<div id="results" ng-controller="WMATAController" ng-init="busRoutes()">
+<div id="results" ng-controller="WMATAController" ng-init="getBusRoutes()">
     <ul>
-        <li ng-repeat="item in stuff">{{ item.Name }}</li>
+        <li ng-repeat="route in busRoutes">{{ route.Name }}</li>
 
     </ul>
 

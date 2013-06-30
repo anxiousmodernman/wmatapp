@@ -1,15 +1,14 @@
-angular.module('Wmatapp', ['ngResource']);
+angular.module('wmatapp', ['ngResource']);
 
 
-var busRoutes = [];
+// var busRoutes = [];
 
 
 function WMATAController($scope, $http) {
 
-    $scope.busRoutes = function () {
+    $scope.getBusRoutes = function () {
         var API_KEY = "azcsgfdx44fzqenbe6zuqqmk";
         var URL = "http://api.wmata.com/Bus.svc/json/jRoutes?api_key=" + API_KEY;
-
 
         $http.jsonp(URL,
             {params:{
@@ -17,7 +16,7 @@ function WMATAController($scope, $http) {
 
             }}).success(function(data, status, headers, config) {
                 console.log(data);
-                $scope.stuff = data.Routes;
+                $scope.busRoutes = data.Routes;
 
             }
         )

@@ -5,12 +5,12 @@
     <ignored path="wmatapp.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/bstest.html" changelist="c1d01cc9-2437-4b94-81fe-c1266ebdc892" time="1372384016980" ignored="false" />
-    <file path="/wmatapp.js" changelist="c1d01cc9-2437-4b94-81fe-c1266ebdc892" time="1372611811539" ignored="false" />
+    <file path="/wmatapp.js" changelist="c1d01cc9-2437-4b94-81fe-c1266ebdc892" time="1372614422733" ignored="false" />
     <file path="/keys" changelist="c1d01cc9-2437-4b94-81fe-c1266ebdc892" time="1372213223585" ignored="false" />
     <file path="/angularajax.js" changelist="c1d01cc9-2437-4b94-81fe-c1266ebdc892" time="1372304363037" ignored="false" />
     <file path="/ajax.js" changelist="c1d01cc9-2437-4b94-81fe-c1266ebdc892" time="1372560806480" ignored="false" />
-    <file path="/bstest-angular.html" changelist="c1d01cc9-2437-4b94-81fe-c1266ebdc892" time="1372390291144" ignored="false" />
-    <file path="/tester.html" changelist="c1d01cc9-2437-4b94-81fe-c1266ebdc892" time="1372611818571" ignored="false" />
+    <file path="/bstest-angular.html" changelist="c1d01cc9-2437-4b94-81fe-c1266ebdc892" time="1372615998720" ignored="false" />
+    <file path="/tester.html" changelist="c1d01cc9-2437-4b94-81fe-c1266ebdc892" time="1372614438474" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +29,7 @@
     <favorites_list name="wmatapp" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.55276704">
       <split-first>
         <leaf>
           <file leaf-file-name="connection.js" pinned="false" current="false" current-in-tab="false">
@@ -59,28 +59,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="bstest.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/jq/bstest.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="27" selection-start="286" selection-end="286" vertical-scroll-proportion="-4.375">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="bstest-angular.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="bstest-angular.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/jq/bstest-angular.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="24" selection-start="457" selection-end="457" vertical-scroll-proportion="-0.625">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="wmatapp.js" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/jq/js/wmatapp.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="42" selection-start="513" selection-end="513" vertical-scroll-proportion="0.40140846">
+                <state line="60" column="57" selection-start="2294" selection-end="2294" vertical-scroll-proportion="0.259366">
                   <folding />
                 </state>
               </provider>
@@ -111,10 +93,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="tester.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="tester.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/jq/tester.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="50" selection-start="452" selection-end="452" vertical-scroll-proportion="0.2970297">
+                <state line="7" column="0" selection-start="170" selection-end="216" vertical-scroll-proportion="-4.375">
                   <folding />
                 </state>
               </provider>
@@ -124,6 +106,15 @@
             <entry file="file://$PROJECT_DIR$/jq/js/ajax.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="87" column="0" selection-start="2491" selection-end="2627" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="wmatapp.js" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/jq/js/wmatapp.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -148,11 +139,11 @@
         <option value="$PROJECT_DIR$/bstest.html" />
         <option value="$PROJECT_DIR$/jq/css/style.css" />
         <option value="$PROJECT_DIR$/jq/bstest.html" />
-        <option value="$PROJECT_DIR$/jq/bstest-angular.html" />
         <option value="$PROJECT_DIR$/jq/js/object.json" />
         <option value="$PROJECT_DIR$/jq/js/ajax.js" />
-        <option value="$PROJECT_DIR$/jq/js/wmatapp.js" />
         <option value="$PROJECT_DIR$/jq/tester.html" />
+        <option value="$PROJECT_DIR$/jq/js/wmatapp.js" />
+        <option value="$PROJECT_DIR$/jq/bstest-angular.html" />
       </list>
     </option>
   </component>
@@ -364,7 +355,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16344917" sideWeight="0.67107004" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16344917" sideWeight="0.67107004" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -523,13 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jq/bstest-angular.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="24" selection-start="457" selection-end="457" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jq/bstest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="27" selection-start="286" selection-end="286" vertical-scroll-proportion="-4.375">
@@ -537,16 +521,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jq/js/wmatapp.js">
+    <entry file="file://$PROJECT_DIR$/jq/tester.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="42" selection-start="513" selection-end="513" vertical-scroll-proportion="0.40140846">
+        <state line="4" column="0" selection-start="76" selection-end="76" vertical-scroll-proportion="-2.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jq/tester.html">
+    <entry file="file://$PROJECT_DIR$/jq/js/wmatapp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="50" selection-start="452" selection-end="452" vertical-scroll-proportion="0.2970297">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq/bstest-angular.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="57" selection-start="2294" selection-end="2294" vertical-scroll-proportion="0.259366">
           <folding />
         </state>
       </provider>
