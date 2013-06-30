@@ -1,26 +1,14 @@
 
 
-    //  check Web Worker support
-//            if (typeof(Worker) != "undefined")
-//                document.write("Web Worker support is available.")
-//            else
-//               document.write("Web Worker support is not available.")
 
-    var API_KEY = "azcsgfdx44fzqenbe6zuqqmk";
-    var URL = "http://api.wmata.com/Bus.svc/json/jRoutes?api_key=" + API_KEY;
+//    $.when(promise1, promise2).done(
+//        console.log('this is promise1 and promise 2')
+//        //console.log(promise1.Routes[0].name);
+//    );
 
 
 
 
-    var items = $.getJSON(URL + "&callback=?",
-        function(data) {
-            console.log(data);
-
-        });
-
-
-
-    return(items);
 
 
 
@@ -79,6 +67,42 @@
 //
 //            $( "#mapList" ).append(html).listview( "refresh", true );
 //            $.mobile.changePage( $("#mapPage") );
+//  check Web Worker support
+//            if (typeof(Worker) != "undefined")
+//                document.write("Web Worker support is available.")
+//            else
+//               document.write("Web Worker support is not available.")
+window.onload = getRoutes;
+
+function getRoutes () {
+
+    $.each(busRoutes, function(index, current){
+        console.log('working?')
+        $('#results').append('<p>'+ current.Name +'</p>');
+    })
+}
+
+
+
+
+var API_KEY = "azcsgfdx44fzqenbe6zuqqmk";
+var URL = "http://api.wmata.com/Bus.svc/json/jRoutes?api_key=" + API_KEY;
+
+var busRoutes = [];
+
+
+
+
+var items = $.getJSON(URL + "&callback=?",
+    function(data) {
+        console.log(data);
+        $.each(data.Routes, function(index, current){
+            busRoutes.push(current);
+            // now i can do busRoutes[0].Name and get a string name
+
+        });
+
+    });
 
 
 

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+    <title>this is only a test</title>
+
+    <script src="js/angular.js"></script>
+    <script src="js/angular-resource.js"></script>
+    <script src="js/jquery-1.5.1.js"></script>
+    <script src="js/wmatapp.js"></script>
+    <!--<script src="js/ajax.js"></script></head>-->
+<body>
+
+<div id="results" ng-controller="WMATAController" ng-init="busRoutes()">
+    <ul>
+        <li ng-repeat="item in stuff">{{ item.Name }}</li>
+
+    </ul>
+
+</div>
+
+</body>
+</html>

@@ -1,8 +1,37 @@
 angular.module('Wmatapp', ['ngResource']);
 
-function WMATAController($scope, $resource) {
 
-    $scope.items = new Worker('js/ajax.js');
+var busRoutes = [];
+
+
+function WMATAController($scope, $http) {
+
+    $scope.busRoutes = function () {
+        var API_KEY = "azcsgfdx44fzqenbe6zuqqmk";
+        var URL = "http://api.wmata.com/Bus.svc/json/jRoutes?api_key=" + API_KEY;
+
+
+        $http.jsonp(URL,
+            {params:{
+                callback:'JSON_CALLBACK'
+
+            }}).success(function(data, status, headers, config) {
+                console.log(data);
+                $scope.stuff = data.Routes;
+
+            }
+        )
+
+
+    }//end busRoutes
+    //$scope.$apply()
+
+//    $scope.busItems = $scope.busRoutes();
+
+
+
+
+//$scope.buses = busRoutes
 
 }
 
